@@ -1,0 +1,19 @@
+{
+    "version": "2",
+    "templates": [
+        {
+            "title": "apache_template",
+            "name": "apache_template",
+            "image": "httpd:latest",
+            "description": "Test Template for Yacht (NON FUNCTIONAL!!)",
+            "platform": "linux",
+            "restart_policy": "always",
+            "ports": [
+                "8888:80/tcp"
+            ],
+            "logo": "https://raw.githubusercontent.com/docker-library/docs/8e367edd887f5fe876890a0ab4d08806527a1571/httpd/logo.png",
+            "network_mode": "bridge",
+            "type": 1
+        }
+    ]
+}
